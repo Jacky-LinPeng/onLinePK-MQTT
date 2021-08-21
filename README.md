@@ -16,3 +16,4 @@ iOS 9.0+
 
 <img width="816" alt="QQ20210821-173821@2x" src="https://user-images.githubusercontent.com/15797691/130319770-c3daa127-e80b-405d-8af3-340b2a18a63f.png">
 
+![QQ20210821-174012-HD](https://user-images.githubusercontent.com/15797691/130319787-7b582fe0-e26e-4db9-9b79-f5fb6389c2c0.gif)
