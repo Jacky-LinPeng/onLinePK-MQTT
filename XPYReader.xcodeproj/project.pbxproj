@@ -93,6 +93,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043BF8A226D155AD002649BD /* Ww.ttc */ = {isa = PBXFileReference; lastKnownFileType = file; path = Ww.ttc; sourceTree = "<group>"; };
 		043C626926C2A28C003C5140 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
 		043C626A26C2A28C003C5140 /* XPYMQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYMQTTManager.m; sourceTree = "<group>"; };
 		043C626B26C2A28C003C5140 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
@@ -389,6 +390,7 @@
 		6C65599B25AFF329002910C4 /* Application */ = {
 			isa = PBXGroup;
 			children = (
+				043BF8A226D155AD002649BD /* Ww.ttc */,
 				6CE9251624D7EF4A000AA12F /* AppDelegate.h */,
 				6CE9251724D7EF4A000AA12F /* AppDelegate.m */,
 				6CE9252824D7EF4D000AA12F /* main.m */,

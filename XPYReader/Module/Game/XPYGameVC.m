@@ -45,7 +45,7 @@
 
 -(void)setupUI {
     //0xd5e6ca  4b2b7f  F1CE49  DE7DA6
-    self.view.backgroundColor = [UIColor colorWithHexString:@"#FF7CA6" andAlpha:1];
+    self.view.backgroundColor = DMRGBColor(232, 221, 203);//DMRGBColor(30, 41, 61);//DMRGBColor(131, 175, 155);//[UIColor colorWithHexString:@"#FF7CA6" andAlpha:1];
     self.navigationController.navigationBar.barTintColor = self.view.backgroundColor;
     
     CGFloat chartViewWidth  = self.view.frame.size.width;
@@ -53,11 +53,11 @@
     
     UILabel *tip = [UILabel new];
     tip.frame = CGRectMake(0, chartViewHeight + 80, chartViewWidth, 170);
-    tip.text = @"快速点击空该区域,参与PK";
-    tip.textColor = [UIColor whiteColor];
+    tip.text = @"快速点击此区域,参与PK";
+    tip.textColor =  DMRGBColor(32, 36, 46);//[UIColor whiteColor];
     tip.textAlignment = NSTextAlignmentCenter;
-    tip.backgroundColor = [UIColor colorWithHexString:@"#4b2b7f" andAlpha:1];
-    tip.font = [UIFont boldSystemFontOfSize:25];
+    tip.backgroundColor = DMRGBColor(250, 179, 128);//DMRGBColor(0, 0, 0); //DMRGBColor(252, 157, 154);//[UIColor colorWithHexString:@"#4b2b7f" andAlpha:1];
+    tip.font = [UIFont fontWithName:@"SnellRoundhand-Bold" size:30];//[UIFont boldSystemFontOfSize:25];
     [self.view addSubview:tip];
     tapView = tip;
     tapView.userInteractionEnabled = NO;
@@ -85,20 +85,23 @@
         value
     ])
     ;
-    AAStyle *titleStyle = [AAStyle styleWithColor:@"#ffffff"];
+    
+    NSString *TEMP = @"#20242E";
+    
+    AAStyle *titleStyle = [AAStyle styleWithColor:TEMP];
     _aaChartModel.titleStyle = titleStyle;
     
-    AAStyle *subtitleStyle = [AAStyle styleWithColor:@"#ffffff"];
+    AAStyle *subtitleStyle = [AAStyle styleWithColor:TEMP];
     _aaChartModel.subtitleStyle = subtitleStyle;
    
     //数据线
-    AAStyle *dataLabelsStyle = [AAStyle styleWithColor:@"#ffffff"];
+    AAStyle *dataLabelsStyle = [AAStyle styleWithColor:TEMP];
     _aaChartModel.dataLabelsStyle = dataLabelsStyle;
     
-    AAStyle *xAxisLabelsStyle = [AAStyle styleWithColor:@"#ffffff"];
+    AAStyle *xAxisLabelsStyle = [AAStyle styleWithColor:TEMP];
     _aaChartModel.xAxisLabelsStyle = xAxisLabelsStyle;
     
-    AAStyle *yAxisLabelsStyle = [AAStyle styleWithColor:@"#ffffff"];
+    AAStyle *yAxisLabelsStyle = [AAStyle styleWithColor:TEMP];
     yAxisLabelsStyle.fontSize = @"15";
     _aaChartModel.yAxisLabelsStyle = yAxisLabelsStyle;
     
@@ -106,6 +109,7 @@
     _aaChartModel.yAxisTitle = @"单位每秒点击次数（次/秒）";
     _aaChartModel.yAxisLabelsStyle = yAxisLabelsStyle;
     _aaChartModel.yAxisCrosshair = [AACrosshair crosshairWithColor:@"#F1CE49"];
+    _aaChartModel.colorsTheme = @[@"#E0A09E",@"#20242E",@"#FC9D9A",@"#FFB6C1",@"#FF7CA6",@"#FE4365"];
     
     _aaChartView.isClearBackgroundColor = YES;
     _aaChartView.scrollEnabled = NO;//禁用 AAChartView 滚动效果
@@ -114,11 +118,10 @@
     AAOptions *aaOptions = _aaChartModel.aa_toAAOptions;
     aaOptions.legend
        .itemStyleSet(AAItemStyle.new
-                     .colorSet(AAColor.whiteColor)//字体颜色
+                     .colorSet(@"#20242E")//字体颜色
                      .fontSizeSet(@"13px")//字体大小
                      .fontWeightSet(AAChartFontWeightTypeThin)//字体为细体字
                      );
-    
     
 //    aaOptions
     [_aaChartView aa_drawChartWithChartModel:_aaChartModel];

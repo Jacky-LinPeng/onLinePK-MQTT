@@ -6,9 +6,6 @@
 //  Copyright © 2016年 Rick. All rights reserved.
 //
 
-#define DMRGBColor(r, g, b) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:1]
-#define DMRGBAColor(r, g, b ,a) [UIColor colorWithRed:(r)/255.0 green:(g)/255.0 blue:(b)/255.0 alpha:a]
-#define DMRandColor DMRGBColor(arc4random_uniform(255), arc4random_uniform(255), arc4random_uniform(255))
 
 #import "DMHeartFlyView.h"
 //@interface DMHeartTheme ()
@@ -30,11 +27,30 @@
    self = [super initWithFrame:frame];
     if (self) {
         _strokeColor = [UIColor whiteColor];
-        _fillColor = DMRandColor;
+        _fillColor = [self randomColor];//DMRandColor;
         self.backgroundColor = [UIColor clearColor];
         self.layer.anchorPoint = CGPointMake(0.5, 1);
     }
     return self;
+}
+
+-(UIColor *)randomColor {
+    NSArray *colors = @[
+        DMRGBColor(254, 67, 101),
+        DMRGBColor(252, 157, 154),
+        DMRGBColor(249, 205, 173),
+        DMRGBColor(200, 200, 169),
+        DMRGBColor(131, 175, 155),
+        DMRGBColor(255, 94, 72),
+        
+        DMRGBColor(255, 150, 128),
+        DMRGBColor(179, 197, 135),
+        DMRGBColor(147, 224, 255),
+        DMRGBColor(23, 44, 60),
+        DMRGBColor(17, 63, 61),
+        
+    ];
+    return colors[arc4random() % colors.count];
 }
 
 static CGFloat PI = M_PI;
