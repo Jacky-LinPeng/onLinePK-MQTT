@@ -22,6 +22,7 @@
     UILabel *tapView;//点击视图
     int tapCount;//当前s点击次数
     int timeCount;//时间
+    BOOL isInitFlag;
 }
 
 @property (nonatomic, strong) AAChartView *aaChartView;
@@ -44,8 +45,6 @@
     
     [self setupUI];
     
-    [self setupTimer];
-    
     [[XPYMQTTManager sharedInstance] addObserver:self];
     [[XPYMQTTManager sharedInstance] addSubscribeWithTopic:kXPYGameTopic];
 }
@@ -61,7 +60,7 @@
     
     UILabel *tip = [UILabel new];
     tip.frame = CGRectMake(0, chartViewHeight + 80, chartViewWidth, 170);
-    tip.text = @"快速点击此区域,参与PK";
+    tip.text = @"猛戳此处 参与PK";
     tip.textColor = kFlag ? DMRGBColor(32, 36, 46) : [UIColor whiteColor];
     tip.textAlignment = NSTextAlignmentCenter;
     tip.backgroundColor = kFlag ? DMRGBColor(250, 179, 128) : [UIColor colorWithHexString:@"#4b2b7f" andAlpha:1];//DMRGBColor(0, 0, 0); //DMRGBColor(252, 157, 154);//[UIColor colorWithHexString:@"#4b2b7f" andAlpha:1];
@@ -145,6 +144,12 @@
     [_aaChartView aa_drawChartWithChartModel:_aaChartModel];
     //https://api.highcharts.com.cn/highcharts#xAxis.title
     [_aaChartView aa_refreshChartWithOptions:aaOptions];
+    
+    //dismiss hud
+    dispatch_after(dispatch_time(DISPATCH_TIME_NOW, (int64_t)(3 * NSEC_PER_SEC)), dispatch_get_main_queue(), ^{
+        [self.hud stop];
+    });
+    
 }
 
 - (void)setupTimer {
@@ -166,6 +171,11 @@
 
 -(void)touchesBegan:(NSSet<UITouch *> *)touches withEvent:(UIEvent *)event {
     [super touchesBegan:touches withEvent:event];
+    if (!isInitFlag) {
+        [self setupTimer];
+    }
+    isInitFlag = YES;
+    
     
     //点赞动画
     UITouch *touch = [event.allTouches anyObject];
