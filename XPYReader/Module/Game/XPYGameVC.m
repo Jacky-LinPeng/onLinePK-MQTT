@@ -57,7 +57,7 @@
     tip.textColor =  DMRGBColor(32, 36, 46);//[UIColor whiteColor];
     tip.textAlignment = NSTextAlignmentCenter;
     tip.backgroundColor = DMRGBColor(250, 179, 128);//DMRGBColor(0, 0, 0); //DMRGBColor(252, 157, 154);//[UIColor colorWithHexString:@"#4b2b7f" andAlpha:1];
-    tip.font = [UIFont fontWithName:@"SnellRoundhand-Bold" size:30];//[UIFont boldSystemFontOfSize:25];
+    tip.font = [UIFont fontWithName:@"PingFangSC-Regular" size:25];// [UIFont fontWithName:@"华康少女字体" size:110];//[UIFont boldSystemFontOfSize:25];
     [self.view addSubview:tip];
     tapView = tip;
     tapView.userInteractionEnabled = NO;
