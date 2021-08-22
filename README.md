@@ -15,6 +15,8 @@ iOS 9.0+
 
 ## 截图 & GIF
 
-<img width="816" alt="QQ20210821-173821@2x" src="https://user-images.githubusercontent.com/15797691/130319770-c3daa127-e80b-405d-8af3-340b2a18a63f.png">
+<img width="808" alt="WX20210822-104023@2x" src="https://user-images.githubusercontent.com/15797691/130340170-773e3582-0162-4663-90f6-eae746fd9b15.png">
 
-![QQ20210821-174012-HD](https://user-images.githubusercontent.com/15797691/130319787-7b582fe0-e26e-4db9-9b79-f5fb6389c2c0.gif)
+![QQ20210822-104139-HD](https://user-images.githubusercontent.com/15797691/130340180-429c268e-7501-44bd-a541-df8e09a19c04.gif)
+
+
