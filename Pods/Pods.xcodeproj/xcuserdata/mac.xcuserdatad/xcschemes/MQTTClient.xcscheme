@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "18D5937A1FF4E1064BDE592E5E9532EA"
-               BuildableName = "libMQTTClient.a"
+               BuildableName = "MQTTClient.framework"
                BlueprintName = "MQTTClient"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

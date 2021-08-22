@@ -18,6 +18,7 @@ PODS:
   - Aspects (1.4.1)
   - FDFullscreenPopGesture (1.1)
   - KVOController (1.2.0)
+  - lottie-ios (3.2.3)
   - Masonry (1.1.0)
   - MBProgressHUD (1.2.0)
   - MQTTClient (0.15.3):
@@ -33,12 +34,14 @@ PODS:
   - SDWebImage/Core (5.6.1)
   - SQLiteRepairKit (1.2.2):
     - WCDBOptimizedSQLCipher (~> 1.2.0)
+  - Toast (4.0.0)
   - WCDB (1.0.7.5):
     - SQLiteRepairKit (~> 1.2.0)
     - WCDBOptimizedSQLCipher (~> 1.2.0)
   - WCDBOptimizedSQLCipher (1.2.1)
   - XPYKit (1.0.6):
     - MBProgressHUD
+  - YYCache (1.0.4)
   - YYModel (1.0.4)
 
 DEPENDENCIES:
@@ -47,12 +50,15 @@ DEPENDENCIES:
   - Aspects
   - FDFullscreenPopGesture
   - KVOController
+  - lottie-ios (~> 3.2.3)
   - Masonry
   - MBProgressHUD
   - MQTTClient
   - SDWebImage (~> 5.6.0)
+  - Toast (~> 4.0.0)
   - WCDB
   - XPYKit (from `https://github.com/xiangxiaopenyou/XPYKit.git`)
+  - YYCache
   - YYModel
 
 SPEC REPOS:
@@ -61,13 +67,16 @@ SPEC REPOS:
     - Aspects
     - FDFullscreenPopGesture
     - KVOController
+    - lottie-ios
     - Masonry
     - MBProgressHUD
     - MQTTClient
     - SDWebImage
     - SQLiteRepairKit
+    - Toast
     - WCDB
     - WCDBOptimizedSQLCipher
+    - YYCache
     - YYModel
 
 EXTERNAL SOURCES:
@@ -90,16 +99,19 @@ SPEC CHECKSUMS:
   Aspects: 7595ba96a6727a58ebcbfc954497fc5d2fdde546
   FDFullscreenPopGesture: a8a620179e3d9c40e8e00256dcee1c1a27c6d0f0
   KVOController: d72ace34afea42468329623b3379ab3cd1d286b6
+  lottie-ios: c058aeafa76daa4cf64d773554bccc8385d0150e
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
   MQTTClient: 0dfa04e789479c2e461786464969895c1fcb0875
   SDWebImage: 7edb9c3ea661e77a66661f7f044de8c1b55d1120
   SQLiteRepairKit: 35aaae5a8838adb85f5b1eb4d796055be6060a4b
+  Toast: 91b396c56ee72a5790816f40d3a94dd357abc196
   WCDB: 8e90babdeb7784c569353a4bd22a66c0a175a882
   WCDBOptimizedSQLCipher: baf44493b0c7a3d49e97bc5b64a3856f6428ddd1
   XPYKit: 5f9e8fa0088bedecfe594f44efd04de5afbddb6f
+  YYCache: 8105b6638f5e849296c71f331ff83891a4942952
   YYModel: 2a7fdd96aaa4b86a824e26d0c517de8928c04b30
 
-PODFILE CHECKSUM: 9cb231303f61e40ff2c8718e1105b0f44a8231d7
+PODFILE CHECKSUM: f7909d08d0ec9db0979b69c3bdfe102f29939925
 
 COCOAPODS: 1.10.1

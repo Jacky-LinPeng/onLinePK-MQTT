@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "7AC2C6E1735146F1E0A04614976C5D18"
-               BuildableName = "libWCDBOptimizedSQLCipher.a"
+               BuildableName = "sqlcipher.framework"
                BlueprintName = "WCDBOptimizedSQLCipher"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

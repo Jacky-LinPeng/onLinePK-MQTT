@@ -2,7 +2,7 @@ platform :ios, '9.0'
 
 ## ignore warning
 inhibit_all_warnings!
-
+use_frameworks!
 target 'XPYReader' do
   
   # 网络请求工具
@@ -40,6 +40,15 @@ target 'XPYReader' do
   
   #图表
   pod 'AAChartKit', :git => 'https://github.com/AAChartModel/AAChartKit.git'
+  
+  # 动画
+  pod 'lottie-ios', '~> 3.2.3'
+  
+  # 缓存
+  pod 'YYCache'
+  
+  #Toast
+  pod 'Toast', '~> 4.0.0'
   
   # 消除版本警告
   post_install do |installer|

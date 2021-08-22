@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "88280FCCAA3AE0C7640CB30F5A2E290F"
-               BuildableName = "libWCDB.a"
+               BuildableName = "WCDB.framework"
                BlueprintName = "WCDB"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1266FA257382DF4C524F7198FA928DAF"
-               BuildableName = "libPods-XPYReader.a"
+               BuildableName = "Pods_XPYReader.framework"
                BlueprintName = "Pods-XPYReader"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

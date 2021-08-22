@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "46B68FB361B0E581CECCA815555333A6"
-               BuildableName = "libSQLiteRepairKit.a"
+               BuildableName = "sqliterk.framework"
                BlueprintName = "SQLiteRepairKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

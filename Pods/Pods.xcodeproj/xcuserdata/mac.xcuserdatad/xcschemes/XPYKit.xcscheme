@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6D96844B958A113E48C6E6D4BE2008F7"
-               BuildableName = "libXPYKit.a"
+               BuildableName = "XPYKit.framework"
                BlueprintName = "XPYKit"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>

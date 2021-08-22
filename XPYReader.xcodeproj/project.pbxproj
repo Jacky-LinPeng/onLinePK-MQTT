@@ -7,10 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		043BF8AA26D22CE8002649BD /* PWLOTAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF8A826D22CE8002649BD /* PWLOTAnimationView.swift */; };
+		043BF8AB26D22CE8002649BD /* PWLOTCustomImageProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF8A926D22CE8002649BD /* PWLOTCustomImageProvider.swift */; };
+		043BF8AD26D22CFC002649BD /* File.swift in Sources */ = {isa = PBXBuildFile; fileRef = 043BF8AC26D22CFC002649BD /* File.swift */; };
+		043BF8B226D2376D002649BD /* champion.json in Resources */ = {isa = PBXBuildFile; fileRef = 043BF8B126D2376D002649BD /* champion.json */; };
 		043C626D26C2A28C003C5140 /* XPYMQTTManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C626A26C2A28C003C5140 /* XPYMQTTManager.m */; };
 		043C626E26C2A28C003C5140 /* BaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 043C626B26C2A28C003C5140 /* BaseManager.m */; };
 		0455D32426D098D8000C6560 /* XPYGameVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455D32326D098D8000C6560 /* XPYGameVC.m */; };
 		0455D32726D0F1FD000C6560 /* DMHeartFlyView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0455D32626D0F1FC000C6560 /* DMHeartFlyView.m */; };
+		047089F926D2394A0073A261 /* XPYLottieView.m in Sources */ = {isa = PBXBuildFile; fileRef = 047089F826D2394A0073A261 /* XPYLottieView.m */; };
+		047089FB26D245D60073A261 /* radar.json in Resources */ = {isa = PBXBuildFile; fileRef = 047089FA26D245D50073A261 /* radar.json */; };
+		047089FE26D245FE0073A261 /* XPYGameHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 047089FD26D245FE0073A261 /* XPYGameHUD.m */; };
 		0488559D26CC9FA100031624 /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 0488559C26CC9FA100031624 /* UIImage+Extension.m */; };
 		048855A226CCA05600031624 /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 048855A026CCA05600031624 /* UIColor+Extension.m */; };
 		048855A326CCA05600031624 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 048855A126CCA05600031624 /* UIView+Extension.m */; };
@@ -18,7 +25,7 @@
 		04D26A8226C94EDB00469965 /* ZTQLiveMsgView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D26A7E26C94EDB00469965 /* ZTQLiveMsgView.m */; };
 		04D26A8326C94EDB00469965 /* ZTQLiveMsgCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D26A7F26C94EDB00469965 /* ZTQLiveMsgCell.m */; };
 		04D26ED126CA98A400469965 /* XPYMessageInputView.m in Sources */ = {isa = PBXBuildFile; fileRef = 04D26ED026CA98A400469965 /* XPYMessageInputView.m */; };
-		0E8F9C96C0109F73ECE90967 /* libPods-XPYReader.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9286C8D3744A6AE8C3108E1 /* libPods-XPYReader.a */; };
+		4C8A0867A574C3B8371AF20F /* Pods_XPYReader.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = EE93511FE9C88F0A0449C16C /* Pods_XPYReader.framework */; };
 		6C033EC724F3C06E002B86A3 /* XPYBaseReadViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C033EC624F3C06E002B86A3 /* XPYBaseReadViewController.m */; };
 		6C033ECD24F4E77A002B86A3 /* XPYTimerProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C033ECA24F4E77A002B86A3 /* XPYTimerProxy.m */; };
 		6C033ECE24F4E77A002B86A3 /* NSTimer+XPYWeakTimer.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C033ECB24F4E77A002B86A3 /* NSTimer+XPYWeakTimer.m */; };
@@ -93,6 +100,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		043BF8A826D22CE8002649BD /* PWLOTAnimationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWLOTAnimationView.swift; sourceTree = "<group>"; };
+		043BF8A926D22CE8002649BD /* PWLOTCustomImageProvider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PWLOTCustomImageProvider.swift; sourceTree = "<group>"; };
+		043BF8AC26D22CFC002649BD /* File.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = File.swift; sourceTree = "<group>"; };
+		043BF8AE26D22D67002649BD /* XPYReader-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "XPYReader-Bridging-Header.h"; sourceTree = "<group>"; };
+		043BF8B126D2376D002649BD /* champion.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = champion.json; sourceTree = "<group>"; };
 		043C626926C2A28C003C5140 /* BaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseManager.h; sourceTree = "<group>"; };
 		043C626A26C2A28C003C5140 /* XPYMQTTManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYMQTTManager.m; sourceTree = "<group>"; };
 		043C626B26C2A28C003C5140 /* BaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseManager.m; sourceTree = "<group>"; };
@@ -101,6 +113,11 @@
 		0455D32326D098D8000C6560 /* XPYGameVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPYGameVC.m; sourceTree = "<group>"; };
 		0455D32526D0F1FC000C6560 /* DMHeartFlyView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMHeartFlyView.h; sourceTree = "<group>"; };
 		0455D32626D0F1FC000C6560 /* DMHeartFlyView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMHeartFlyView.m; sourceTree = "<group>"; };
+		047089F726D2394A0073A261 /* XPYLottieView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYLottieView.h; sourceTree = "<group>"; };
+		047089F826D2394A0073A261 /* XPYLottieView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYLottieView.m; sourceTree = "<group>"; };
+		047089FA26D245D50073A261 /* radar.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = radar.json; sourceTree = "<group>"; };
+		047089FC26D245FE0073A261 /* XPYGameHUD.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XPYGameHUD.h; sourceTree = "<group>"; };
+		047089FD26D245FE0073A261 /* XPYGameHUD.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYGameHUD.m; sourceTree = "<group>"; };
 		0488559B26CC9FA100031624 /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
 		0488559C26CC9FA100031624 /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		0488559E26CCA05600031624 /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
@@ -254,8 +271,8 @@
 		6CFC225A257490A100398FD0 /* XPYParagraphModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XPYParagraphModel.m; sourceTree = "<group>"; };
 		6CFC228625761F5000398FD0 /* UIGestureRecognizer+XPYTag.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIGestureRecognizer+XPYTag.h"; sourceTree = "<group>"; };
 		6CFC228725761F5000398FD0 /* UIGestureRecognizer+XPYTag.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIGestureRecognizer+XPYTag.m"; sourceTree = "<group>"; };
-		B9286C8D3744A6AE8C3108E1 /* libPods-XPYReader.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XPYReader.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D2E91969A5F7A56BB0CACD2F /* Pods-XPYReader.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XPYReader.debug.xcconfig"; path = "Target Support Files/Pods-XPYReader/Pods-XPYReader.debug.xcconfig"; sourceTree = "<group>"; };
+		EE93511FE9C88F0A0449C16C /* Pods_XPYReader.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_XPYReader.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -263,13 +280,24 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				0E8F9C96C0109F73ECE90967 /* libPods-XPYReader.a in Frameworks */,
+				4C8A0867A574C3B8371AF20F /* Pods_XPYReader.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		043BF8A726D22CE8002649BD /* LottieAdapter */ = {
+			isa = PBXGroup;
+			children = (
+				043BF8B126D2376D002649BD /* champion.json */,
+				047089FA26D245D50073A261 /* radar.json */,
+				043BF8A826D22CE8002649BD /* PWLOTAnimationView.swift */,
+				043BF8A926D22CE8002649BD /* PWLOTCustomImageProvider.swift */,
+			);
+			path = LottieAdapter;
+			sourceTree = "<group>";
+		};
 		043C626826C2A27D003C5140 /* MQTTHelper */ = {
 			isa = PBXGroup;
 			children = (
@@ -284,10 +312,15 @@
 		0455D32126D098D8000C6560 /* Game */ = {
 			isa = PBXGroup;
 			children = (
+				043BF8A726D22CE8002649BD /* LottieAdapter */,
 				0455D32526D0F1FC000C6560 /* DMHeartFlyView.h */,
 				0455D32626D0F1FC000C6560 /* DMHeartFlyView.m */,
 				0455D32226D098D8000C6560 /* XPYGameVC.h */,
 				0455D32326D098D8000C6560 /* XPYGameVC.m */,
+				047089F726D2394A0073A261 /* XPYLottieView.h */,
+				047089F826D2394A0073A261 /* XPYLottieView.m */,
+				047089FC26D245FE0073A261 /* XPYGameHUD.h */,
+				047089FD26D245FE0073A261 /* XPYGameHUD.m */,
 			);
 			path = Game;
 			sourceTree = "<group>";
@@ -382,6 +415,7 @@
 				6C33935D2563A0FD00CDB9CA /* 孤单的飞.txt */,
 				6C33935E2563A0FD00CDB9CA /* 诡异天地.txt */,
 				6C33935F2563A0FE00CDB9CA /* 汉末文枭.txt */,
+				043BF8AE26D22D67002649BD /* XPYReader-Bridging-Header.h */,
 			);
 			path = Resource;
 			sourceTree = "<group>";
@@ -393,6 +427,7 @@
 				6CE9251724D7EF4A000AA12F /* AppDelegate.m */,
 				6CE9252824D7EF4D000AA12F /* main.m */,
 				6C7BA8CB24D7FFF20054B971 /* XPYReader.pch */,
+				043BF8AC26D22CFC002649BD /* File.swift */,
 			);
 			path = Application;
 			sourceTree = "<group>";
@@ -770,7 +805,7 @@
 		F388D6DD322073587548FD5F /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				B9286C8D3744A6AE8C3108E1 /* libPods-XPYReader.a */,
+				EE93511FE9C88F0A0449C16C /* Pods_XPYReader.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -786,7 +821,7 @@
 				6CE9250F24D7EF4A000AA12F /* Sources */,
 				6CE9251024D7EF4A000AA12F /* Frameworks */,
 				6CE9251124D7EF4A000AA12F /* Resources */,
-				AA04CC10E2E4D924570BB1F0 /* [CP] Copy Pods Resources */,
+				4DB905BA7A07D20A8A23A790 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -839,6 +874,7 @@
 				6C3393612563A0FE00CDB9CA /* 孤单的飞.txt in Resources */,
 				6C3393632563A0FE00CDB9CA /* 汉末文枭.txt in Resources */,
 				6C80E71725AC20F8001183A3 /* upload_book.png in Resources */,
+				043BF8B226D2376D002649BD /* champion.json in Resources */,
 				6C8F6B9A256D038A00FA72F4 /* README.md in Resources */,
 				6C8F6BAC256E28FB00FA72F4 /* reader_catalog.gif in Resources */,
 				6C8F6BAF256E2A5300FA72F4 /* reader_background.gif in Resources */,
@@ -846,6 +882,7 @@
 				6C8F6BB4256E2C8000FA72F4 /* reader_landscape.gif in Resources */,
 				6C3393622563A0FE00CDB9CA /* 诡异天地.txt in Resources */,
 				6C8F6BA6256DFECF00FA72F4 /* reader_page_mode.gif in Resources */,
+				047089FB26D245D60073A261 /* radar.json in Resources */,
 				6CE9252324D7EF4D000AA12F /* Assets.xcassets in Resources */,
 				6C3393602563A0FE00CDB9CA /* 末法时代.txt in Resources */,
 				6C8F6BA9256E277900FA72F4 /* reader_auto_read.gif in Resources */,
@@ -855,6 +892,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		4DB905BA7A07D20A8A23A790 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9ECC8CBFA7134F89C94CDE74 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -875,23 +929,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		AA04CC10E2E4D924570BB1F0 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-resources-${CONFIGURATION}-input-files.xcfilelist",
-			);
-			name = "[CP] Copy Pods Resources";
-			outputFileListPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-resources-${CONFIGURATION}-output-files.xcfilelist",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-XPYReader/Pods-XPYReader-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -916,6 +953,7 @@
 				04D26ED126CA98A400469965 /* XPYMessageInputView.m in Sources */,
 				6C03F0ED24DCF0AD0070328E /* XPYReadConfigManager.m in Sources */,
 				6C03F0D124D950310070328E /* XPYChapterModel.mm in Sources */,
+				047089F926D2394A0073A261 /* XPYLottieView.m in Sources */,
 				6C03F0E624DBAB2A0070328E /* XPYNetworkService+Chapter.m in Sources */,
 				6C91FAEA24E6333600D7D2B2 /* XPYUserModel.m in Sources */,
 				6C03F0EA24DCED5D0070328E /* XPYReadParser.m in Sources */,
@@ -923,6 +961,7 @@
 				6C7BA8C824D7FF8C0054B971 /* XPYUtilities.m in Sources */,
 				6C91FADF24E4E90600D7D2B2 /* XPYReadMenuTopBar.m in Sources */,
 				6C91FAEE24E6376100D7D2B2 /* XPYUserManager.m in Sources */,
+				047089FE26D245FE0073A261 /* XPYGameHUD.m in Sources */,
 				043C626D26C2A28C003C5140 /* XPYMQTTManager.m in Sources */,
 				6C033ECD24F4E77A002B86A3 /* XPYTimerProxy.m in Sources */,
 				6C03F10124E2787B0070328E /* XPYBookDetailsViewController.m in Sources */,
@@ -935,6 +974,8 @@
 				6C602E9525303BA0005A2FED /* XPYCloseBookAnimation.m in Sources */,
 				6CAEFD772505C47E006DC948 /* XPYHorizontalScrollCollectionViewCell.m in Sources */,
 				6CCDDC8424EB766E00612B7B /* XPYScrollReadViewController.m in Sources */,
+				043BF8AB26D22CE8002649BD /* PWLOTCustomImageProvider.swift in Sources */,
+				043BF8AD26D22CFC002649BD /* File.swift in Sources */,
 				04D26A8126C94EDB00469965 /* ZTQLiveMsgModel.m in Sources */,
 				6C033ED124F4F651002B86A3 /* XPYReadMenuSettingBar.m in Sources */,
 				6C91FB0124E77F3000D7D2B2 /* XPYViewControllerHelper.m in Sources */,
@@ -959,6 +1000,7 @@
 				04D26A8226C94EDB00469965 /* ZTQLiveMsgView.m in Sources */,
 				6CAEFD742505C16E006DC948 /* XPYHorizontalScrollReadViewController.m in Sources */,
 				6C7BA8DA24D8FAD40054B971 /* XPYNetworkService+Book.m in Sources */,
+				043BF8AA26D22CE8002649BD /* PWLOTAnimationView.swift in Sources */,
 				6C03F0E224DB9F2A0070328E /* XPYReadView.m in Sources */,
 				6CCDDC9424ED03A200612B7B /* XPYReadMenuBottomBar.m in Sources */,
 				6CCDDC9124EBD28100612B7B /* XPYPageReadViewController.m in Sources */,
@@ -1117,7 +1159,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.mqttApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XPYReader/Module/Message/XPYReader-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "XPYReader/Resource/XPYReader-Bridging-Header.h";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -1142,7 +1184,7 @@
 				MARKETING_VERSION = 1.0.4;
 				PRODUCT_BUNDLE_IDENTIFIER = com.easemob.mqttApp;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_OBJC_BRIDGING_HEADER = "XPYReader/Module/Message/XPYReader-Bridging-Header.h";
+				SWIFT_OBJC_BRIDGING_HEADER = "XPYReader/Resource/XPYReader-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};

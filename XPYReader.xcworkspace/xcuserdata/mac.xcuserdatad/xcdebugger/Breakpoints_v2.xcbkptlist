@@ -126,8 +126,8 @@
             filePath = "XPYReader/Module/Game/XPYGameVC.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "150"
-            endingLineNumber = "150"
+            startingLineNumber = "175"
+            endingLineNumber = "175"
             landmarkName = "-touchesBegan:withEvent:"
             landmarkType = "7">
          </BreakpointContent>
@@ -142,8 +142,8 @@
             filePath = "XPYReader/Module/Game/XPYGameVC.m"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "234"
-            endingLineNumber = "234"
+            startingLineNumber = "291"
+            endingLineNumber = "291"
             landmarkName = "-showTheLove:y:"
             landmarkType = "7">
          </BreakpointContent>
